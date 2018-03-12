@@ -1,0 +1,84 @@
+	header {
+		background-color: lightblue;
+		display: flex;
+		padding: 30px;
+		margin: auto;
+		justify-content: space-between;
+
+		align-items: center;   /*    This is the New Line i added   */
+	}
+	.container {
+		/*   This is my updated code    */
+		background-color: green;
+		display: flex;
+		padding: 10px 0px;
+		width: 80%;
+		margin: 0px auto;
+		justify-content: space-between;
+
+		/*Following is your code*/
+
+		/*background-color: green;*/
+		/*display: flex;*/
+		/*padding: 30px;*/
+		/*margin: auto;*/
+		/*justify-content: space-between;*/
+
+	}
+	header div {
+		padding: 10px;
+	}
+	.container div {
+		padding: 10px;
+
+	}
+	input {
+		height: 30px;
+		border-radius: 5px;
+		padding: 5px;
+		width: 500px;
+
+	}
+
+   /* .logo {
+    	flex:1;
+    }
+
+	.menu1  {
+		display: flex;
+		flex:2;
+	}
+
+	.menu  {
+		display: flex;
+		flex:2;
+	} */
+.showcase {
+	background-color: lightblue;
+	padding: 40px;
+	background-image: url("image.jpg");
+	 background-position: center;
+	  align-items: flex-end;
+	
+	}
+
+	div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
